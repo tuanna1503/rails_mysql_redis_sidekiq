@@ -9,4 +9,5 @@ chown -R $USER. *
 docker-compose build
 3. Start app:
 docker-compose up
--compose run web rake db:create
+
+docker-compose run web rake db:create
